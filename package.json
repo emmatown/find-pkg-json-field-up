@@ -1,0 +1,27 @@
+{
+  "name": "find-pkg-json-field-up",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/find-pkg-json-field-up.cjs.js",
+  "scripts": {
+    "prepublishOnly": "preconstruct build"
+  },
+  "repository": "https://github.com/mitchellhamilton/find-pkg-json-field-up",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchellhamilton/find-pkg-json-field-up/issues"
+  },
+  "homepage": "https://github.com/mitchellhamilton/find-pkg-json-field-up#readme",
+  "devDependencies": {
+    "@preconstruct/cli": "^1.1.14",
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "find-up": "^4.1.0"
+  }
+}
