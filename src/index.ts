@@ -20,7 +20,7 @@ export async function findPkgJsonFieldUp(field: string, cwd: string) {
         );
         if (contents.name !== undefined && contents[field] !== undefined) {
           result = { directory, packageJson: contents };
-          return result;
+          return directory;
         }
       } catch (err) {
         if (err.code === "ENOENT") {
